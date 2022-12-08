@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title">Wordle Remake</h1>
+    <div class="container">
+        <div class="information">
+            <h3>About Wordle</h3>
+            <p>Wordle is a web-based word game created and developed by Welsh 
+                software engineer Josh Wardle, and owned and published 
+                by The New York Times Company since 2022. Players have six attempts 
+                to guess a five-letter word, with feedback given for each guess in the form of 
+                colored tiles indicating when letters match or occupy the correct position. 
+                The mechanics are nearly identical to the 1955 pen-and-paper game Jotto and the television 
+                game show franchise Lingo. Wordle has a single daily solution, with all players 
+                attempting to guess the same word.
+            </p>
+            <h3>How to play?</h3>
+            <div>
+                Guess the Wordle in 6 tries
+                <ul>
+                    <li>Each Guess must be valid 5-letter word</li>
+                    <li>The color of each box will change based on how close your guess was to the Wordle (P.S: please wait for the wordle to be loaded)
+                        <ul>
+                            <li>Green - Right guess and spot</li>
+                            <li>Yellow - Right guess but Wrong spot</li>
+                            <li>Gray - Wrong guess & spot</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="letter-input">
+            <div class="score-letter" id="letter-1-word-1"></div>
+            <div class="score-letter" id="letter-2-word-1"></div>
+            <div class="score-letter" id="letter-3-word-1"></div>
+            <div class="score-letter" id="letter-4-word-1"></div>
+            <div class="score-letter" id="letter-5-word-1"></div>
+            <div class="score-letter" id="letter-1-word-2"></div>
+            <div class="score-letter" id="letter-2-word-2"></div>
+            <div class="score-letter" id="letter-3-word-2"></div>
+            <div class="score-letter" id="letter-4-word-2"></div>
+            <div class="score-letter" id="letter-5-word-2"></div>
+            <div class="score-letter" id="letter-1-word-3"></div>
+            <div class="score-letter" id="letter-2-word-3"></div>
+            <div class="score-letter" id="letter-3-word-3"></div>
+            <div class="score-letter" id="letter-4-word-3"></div>
+            <div class="score-letter" id="letter-5-word-3"></div>
+            <div class="score-letter" id="letter-1-word-4"></div>
+            <div class="score-letter" id="letter-2-word-4"></div>
+            <div class="score-letter" id="letter-3-word-4"></div>
+            <div class="score-letter" id="letter-4-word-4"></div>
+            <div class="score-letter" id="letter-5-word-4"></div>
+            <div class="score-letter" id="letter-1-word-5"></div>
+            <div class="score-letter" id="letter-2-word-5"></div>
+            <div class="score-letter" id="letter-3-word-5"></div>
+            <div class="score-letter" id="letter-4-word-5"></div>
+            <div class="score-letter" id="letter-5-word-5"></div>
+            <div class="score-letter" id="letter-1-word-6"></div>
+            <div class="score-letter" id="letter-2-word-6"></div>
+            <div class="score-letter" id="letter-3-word-6"></div>
+            <div class="score-letter" id="letter-4-word-6"></div>
+            <div class="score-letter" id="letter-5-word-6"></div>
+        </div>
+        <h4 id="result"></h4>
+        <div class="loading hidden">
+            <div class="center">
+                <div class="wave"></div>
+                <div class="wave"></div>
+                <div class="wave"></div>
+                <div class="wave"></div>
+                <div class="wave"></div>
+                <div class="wave"></div>
+                <div class="wave"></div>
+                <div class="wave"></div>
+                <div class="wave"></div>
+                <div class="wave"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
